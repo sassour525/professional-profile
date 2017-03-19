@@ -29,44 +29,36 @@
 	<main>
 		<div class="container">
 			<div class="row">
-				<div class="col s8" id="left-content">
-		          <div class="card blue darken-3">
-		            <div class="card-content white-text">
-		              <span class="card-title">Get to know me:</span>
-		              <p id="general-text">I am a very simple card. I am good at containing small bits of information.
-		              I am convenient because I require little markup to use effectively.</p>
-		            </div>
-		          </div>
-				</div>
-				<div class="col s4" id="right-content">
-					<div class="card blue darken-3">
+				<div class="col s12" id="contact-content">
+		        	<div class="card blue darken-3">
 			            <div class="card-content white-text">
-				            <span class="card-title">Skills/Interest:</span>
-							<div class="card-tabs">
-							  <ul class="tabs tabs-fixed-width blue darken-3">
-							    <li class="tab"><a class="active white-text" href="#skill-ref">Skills</a></li>
-							    <li class="tab"><a class="white-text" href="#interest-ref">Interest</a></li>
-							  </ul>
-							</div>
-							<div class="card-content blue darken-3">
-								<div id="skill-ref">
-									<ul>
-										<li>- Excellent Customer Service</li>
-										<li>- Strong Team Collaboration</li>
-										<li>- Techincal Troubleshooting</li>
-										<li>- Debugging</li>
-									</ul>
+							<span class="card-title">Resume:</span>
+							<form method="get" action="shawn-assour-site-resume.docx">
+								<h5>Current Position:</h5>
+								<p>Support Engineer at SailPoint</p>
+								<p>Oct 2016 – Present</p>
+								<br>
+								<p>- Support SailPoint IdentityIQ software (versions 5.5 - 7.0)</p>
+								<p>- Resolve customer software issues through research, reproduction, and troubleshooting skills</p>
+								<p>- Review source code (GitHub) to determine origin of error</p>
+								<p>- Configure Apache log4j Java utility to gather trace classes and verbosity levels to generate a precise log for analysis</p>
+								<p>- Use JIRA ticketing system to submit requests</p>
+								<br>
+								<hr>
+								<button type="submit" class="waves-effect waves-light btn download-btn"><i class="material-icons left">work</i>Download Resume</button>
+							</form>
+							<button data-target="resume-modal" class="btn resume-view-btn"><i class="material-icons left">description</i>View Full Resume</button>
+							<!-- Modal Structure -->
+							<div id="resume-modal" class="modal modal-fixed-footer">
+								<div class="modal-content">
+									<object id="resume-obj" type="application/pdf" data="sa-site-resume.pdf">No Support</object>
 								</div>
-								<div id="interest-ref">
-									<ul>
-										<li>- Web Development</li>
-										<li>- Exercise</li>
-										<li>- Sports</li>
-									</ul>
+								<div class="modal-footer">
+									<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
 								</div>
 							</div>
-			            </div>
-		          	</div>
+				        </div>
+			    	</div>
 				</div>
 			</div>
 		</div>
