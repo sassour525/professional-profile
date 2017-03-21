@@ -53,3 +53,17 @@ h5 {
 #resume-modal{
 	height: 600px;
 }
+
+.collapsible-header {
+	background-color: #26a69a;
+}
+
+.collapsible-body {
+	background-color: white;
+	color: black;
+}
+
+.collapsible {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
