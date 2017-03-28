@@ -67,3 +67,24 @@ h5 {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+#head-shot {
+	height: 200px;
+	width: 200px;
+	/*float: left;*/
+	margin-bottom: 20px;
+}
+
+#img-head-shot{
+	text-align: center;
+}
+
+hr {
+	border-color: #26a69a;
+	height: 1px;
+	background-color: #26a69a;
+}
+
+ol {
+	list-style-type: disc;
+}
